@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Subir archivos </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigim
+        href="https://fonts.googleapis.com/css?family=Work+Sans&display-swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="dropzone-box">
+        <h2>Subir archivos</h2>
+        <p>Adjuntar archivos a este proyecto</p>
+        <div class="dropzone-area">
+            <p>Haga clic para cargar o arrastrar y soltar</p> <input type="file" required id="upload-file"
+                name="uploaded-file">
+            <p class="message">No hay archivo seleccionado</p>
+        </div>
+        <div class="dropzone-actions"> <button type="reset"> Cancelar </button>
+            <button id="submit-button" type="submit"> Guardar </button>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
